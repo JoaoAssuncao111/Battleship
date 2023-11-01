@@ -1,0 +1,640 @@
+.center_items {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.turn_or_win_text {
+  color: rgb(10, 10, 10);
+  font-size: 40px;
+  font-weight: 600;
+  font-family: 'Roboto', sans-serif;
+
+}
+
+.game_return_home_link {
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.grid_cell_setup {
+  border: 2.5px solid black;
+  width: 70px;
+  height: 70px;
+  display: flex;
+  text-align: center;
+  line-height: 50px;
+  right: 50%;
+  cursor: pointer;
+  background-color: white;
+}
+
+.blue_cell_setup {
+  border: 2.5px solid blue;
+  width: 70px;
+  height: 70px;
+  display: flex;
+  text-align: center;
+  line-height: 50px;
+  right: 50%;
+  background-color: rgba(0, 0, 255, 0.2);
+
+}
+
+
+.grid_cell_setup:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 4);
+  cursor: url(../public/cursor.cur), auto;
+
+}
+
+/*Game Cells */
+
+.grid_cell_game {
+  border: 2.5px solid black;
+  background-color: white;
+  width: 70px;
+  height: 70px;
+  display: flex;
+  text-align: center;
+  line-height: 50px;
+  right: 50%;
+  cursor: url(../public/cursor.cur);
+
+}
+
+.blue_cell_setup:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 4);
+  cursor: pointer;
+}
+
+.blue_cell_game {
+  border: 2.5px solid blue;
+  width: 70px;
+  height: 70px;
+  display: flex;
+  text-align: center;
+  line-height: 50px;
+  right: 50%;
+  background-color: rgba(0, 0, 255, 0.2);
+}
+
+.shotPreview {
+  border: 2.5px solid red;
+  width: 70px;
+  height: 70px;
+  display: flex;
+  text-align: center;
+  line-height: 50px;
+  right: 50%;
+  background-image: url(../public/crosshair.png);
+  animation: shot_preview_animation 2s linear infinite;
+}
+
+/*hit ship*/
+.hit_ship_cell_game {
+  border: 2.5px solid red;
+  width: 70px;
+  height: 70px;
+  display: flex;
+  text-align: center;
+  line-height: 50px;
+  right: 50%;
+  background-color: rgba(255, 0, 0, 0.5);
+}
+
+/*sunk ship, in the future change to fire or that represents the sunk ship*/
+.sunk_ship_cell_game {
+  border: 2.5px solid #ec0808;
+  width: 70px;
+  height: 70px;
+  display: flex;
+  text-align: center;
+  line-height: 50px;
+  right: 50%;
+  background-color: rgba(255, 0, 0, 0.5);
+  background-image: url(../public/flame.png);
+}
+
+
+
+/*work in progress , but the idea is to have a way of representing the hit water shot*/
+.hit_water_cell_game {
+  /* grid-area: a; */
+  border: 2.5px solid black;
+  width: 70px;
+  height: 70px;
+  display: flex;
+  text-align: center;
+  line-height: 50px;
+  right: 50%;
+  background-color: white;
+  background-image: url(../public/water.png);
+
+}
+.user-board-text{
+  position: absolute;
+  top:12%;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: sans-serif;
+
+}
+
+.grid_container {
+
+  display: flex;
+
+}
+
+.grid_user {
+  margin-left: 150px;
+  margin-right: 130px;
+}
+
+.nav-bar {
+  display: flex;
+  align-items: center;
+  padding: 20px 0;
+  /* Add this line */
+  background-color: #333;
+  color: #fff;
+}
+
+.nav-link {
+  margin: 0 10px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.nav-link:hover {
+  color: #ccc;
+}
+
+.game_links,.setup_links {
+  position: absolute;
+  top: 50px;
+  left: 50px;
+  display: flex;
+  flex-direction: row;
+}
+
+.game_link,.setup_link {
+  position: relative;
+  background-color: black;
+  color: white;
+  border: none;
+  outline: none;
+  padding: 10px 20px;
+  margin: 0 5px;
+  cursor: pointer;
+  border-radius: 10px;
+  font-family: sans-serif;
+}
+
+.setup_links{
+  top: 10px;
+  left: 200px;
+}
+
+.game_link:hover{
+  background-color: blue;
+}
+
+.timer-container {
+  position: absolute;
+  top: 10px;
+  right: 50px;
+  display: flex;
+  
+}
+
+.timer{
+  font-size: 36px;
+  font-weight: bold;
+  color: #333;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+
+
+
+*:before,
+*:after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.wallpaper {
+  border-radius: 2%;
+  background: white;
+  background-color: white;
+  height: 100%;
+
+}
+
+.background {
+  width: 430px;
+  height: 520px;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  top: 50%;
+
+}
+
+.logout-button{
+  border-radius: 7%;
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  transform: scale(1);
+  transition: transform 0.1s;
+  box-shadow: 0 0 0 rgba(0, 0, 0, 0);
+}
+
+.logout-button:hover{
+  transform: scale(1.1);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+
+form {
+  height: 520px;
+  width: 400px;
+  background-color: rgba(255, 255, 255, 0.13);
+
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  border-radius: 10px;
+  backdrop-filter: blur(10px);
+  border: 2px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 0 40px rgba(8, 7, 16, 0.6);
+  padding: 50px 35px;
+
+}
+
+form * {
+  font-family: 'Roboto', sans-serif;
+  color: #ffffff;
+  letter-spacing: 0.5px;
+  outline: none;
+  border: none;
+}
+
+form h3 {
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 42px;
+  text-align: center;
+}
+
+input::placeholder {
+  display: block;
+  margin-top: 30px;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+input {
+
+  display: block;
+  height: 50px;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.07);
+  border-radius: 3px;
+  padding: 0 10px;
+  margin-top: 8px;
+  font-size: 14px;
+  font-weight: 1000;
+  border: 1px solid white;
+}
+
+::placeholder {
+  color: #e5e5e5;
+}
+
+.form-button {
+  margin-top: 50px;
+  width: 100%;
+  background-color: #ffffff;
+  color: #080710;
+  padding: 15px 0;
+  font-size: 18px;
+  font-weight: 600;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.form-button:hover {
+  background-color: black;
+  color: white;
+}
+
+.shoot-button:disabled {
+  pointer-events: none;
+  opacity: 0.3;
+}
+
+html {
+  background: radial-gradient(circle, darkblue 1%, black 130%);
+}
+
+.error {
+  color: red;
+  font-weight: bold;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  outline: black 1px;
+}
+
+.user-profile{
+  color: whitesmoke;
+  font-family: sans-serif;
+  justify-content: center;
+  display: flex;
+}
+.profile-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.user-games{
+  display: flex;
+  justify-content: left;
+  align-self: left;
+  font-size: 30px;
+  color: white;
+  font-family: sans-serif;
+}
+
+.user-profile-score{
+  display: flex;
+  justify-content: right;
+  align-self: right;
+  font-size: 30px;
+  color: white;
+  font-family: sans-serif;
+}
+
+.user-game{
+  color: cyan;
+  
+  padding: 8px 12px;
+  font-size: 20px;
+  font-family: sans-serif;
+  border-radius: 2%;
+  transition: background-color 0.3s;
+  width: 50%;
+  text-decoration: none;
+}
+
+.user-game:hover{
+  color: #ec0808;
+}
+
+.link-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.link {
+  font-size: 40px;
+  text-decoration: none;
+  color: white;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.link:hover {
+  transform: scale(1.1);
+  color: cyan;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+
+
+.home-header {
+  font-size: 300px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  color: white;
+}
+
+.leaderboard {
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 30%;
+  margin: 0 auto;
+
+
+}
+
+.leaderboard a {
+  margin: 15px;
+  font-size: 18px;
+  display: flex;
+  justify-content: space-between;
+  font-family: sans-serif;
+
+}
+
+.span {}
+
+.leaderboard p:first-child {
+  font-weight: bold;
+}
+
+.leaderboard .item {
+  margin: 8px;
+  display: flex;
+  background: linear-gradient(90deg, white, blue);
+  border-radius: 5px;
+  justify-content: space-between;
+  width: 100%;
+  border: 1px black solid;
+  border-bottom: 1px solid #ccc;
+  padding: 10px;
+
+}
+
+.leaderboard .item:last-child {
+  border-bottom: none;
+}
+
+
+.waiting-message {
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-family: sans-serif;
+  animation: fade-in-out 1.5s infinite;
+}
+
+.authors{position: fixed;
+  bottom: 0;
+  right: 0;
+  font-size: large;
+  color: white;
+  font-style: italic;
+  text-align: left;
+  margin: 0;
+  padding: 0;
+}
+
+.shoot-button-container{
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  
+}
+
+.shoot-button {
+  position: relative;
+  width: 10%;
+  height: 30px;
+  background-color: red;
+  border: 2px solid black;
+  color: white;
+  font-size: 16px;
+  align-self: flex-start;
+  margin: 8px;
+  line-height: 0px;
+}
+
+.shoot-button,.submit-ship-button:hover {
+  background-color: darkred;
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+.submit-ship-button {
+  font-family: sans-serif;
+  font-weight: 700;
+  position: relative;
+  width: 10%;
+  height: 60px;
+  background-color: red;
+  border: 2px solid black;
+  color: white;
+  font-size: 16px;
+  align-self: flex-start;
+  margin-left: 40%;
+  margin-top: 5%;
+  line-height: 0px;
+  border-radius: 5%;
+
+}
+
+.direction-button {
+  appearance: button;
+  background-color: #1899D6;
+  border: solid transparent;
+  
+  border-width: 0 0 4px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  height: 60px;
+  font-family: sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  letter-spacing: .8px;
+  margin: 0;
+  padding: 13px 16px;
+  text-align: center;
+  width: 10%;
+  border: solid 2px black;
+}
+
+.setup-buttons{
+  text-align: center;
+  margin-top: 100px;
+  
+}
+.direction-button,
+.submit-ship-button {
+  display: inline;
+  margin: 0 -5px;
+  -webkit-text-stroke: 0.5px black ;
+  margin: 0 10px;
+  border-radius: 16px;
+}
+
+select {
+  background-color: #CCCCFF;
+  padding: 8px 12px;
+  border: 2px solid #0000FF;
+  border-radius: 8px;
+  transition: background-color 0.3s;
+  color: #000080;
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+option:hover {
+  background-color: #99CCFF;
+}
+
+.setup-error{
+  position: absolute;
+  top: 40px;
+  right: 40px;
+  font-family: sans-serif;
+  font-size: 30px;
+  overflow: visible;
+  color: red;
+}
+
+@keyframes fade-in-out {
+  0% {
+    opacity: 0;
+  }
+
+  50% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+
+
+@keyframes shot_preview_animation {
+  0% {
+    background-color: none;
+    border-color: black;
+  }
+
+  50% {
+    background-color: rgba(255, 0, 0, 0.1);
+    border-color: red;
+  }
+
+  100% {
+    background-color: none;
+    border-color: black;
+  }
+
+
+}

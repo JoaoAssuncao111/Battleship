@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="be073b99-09da-48f4-a8a2-2129ef4b81a4" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/code/js/public/splash.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/js/public/water.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/48745448-537a-4415-abcf-b173b4c6024f.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/48745448-537a-4415-abcf-b173b4c6024f/storage_v2/_src_/database/dawg09.1iYzsA.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/48745448-537a-4415-abcf-b173b4c6024f/storage_v2/_src_/database/dawg09.1iYzsA/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/48745448-537a-4415-abcf-b173b4c6024f/storage_v2/_src_/database/dawg09.1iYzsA/schema/pg_catalog.0S1ZNQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/48745448-537a-4415-abcf-b173b4c6024f/storage_v2/_src_/database/dawg09.1iYzsA/schema/public.abK9xQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/48745448-537a-4415-abcf-b173b4c6024f/storage_v2/_src_/database/postgres.edMnLQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/48745448-537a-4415-abcf-b173b4c6024f/storage_v2/_src_/database/postgres.edMnLQ/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/48745448-537a-4415-abcf-b173b4c6024f/storage_v2/_src_/database/postgres.edMnLQ/schema/pg_catalog.0S1ZNQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/48745448-537a-4415-abcf-b173b4c6024f/storage_v2/_src_/database/postgres.edMnLQ/schema/public.abK9xQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/86224bd5-15d3-4bee-baa3-c4d5e2a977b8.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/86224bd5-15d3-4bee-baa3-c4d5e2a977b8/storage_v2/_src_/database/dawg09.1iYzsA.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/86224bd5-15d3-4bee-baa3-c4d5e2a977b8/storage_v2/_src_/database/dawg09.1iYzsA/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/86224bd5-15d3-4bee-baa3-c4d5e2a977b8/storage_v2/_src_/database/dawg09.1iYzsA/schema/pg_catalog.0S1ZNQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/86224bd5-15d3-4bee-baa3-c4d5e2a977b8/storage_v2/_src_/database/dawg09.1iYzsA/schema/public.abK9xQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/86224bd5-15d3-4bee-baa3-c4d5e2a977b8/storage_v2/_src_/database/postgres.edMnLQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/86224bd5-15d3-4bee-baa3-c4d5e2a977b8/storage_v2/_src_/database/postgres.edMnLQ/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/86224bd5-15d3-4bee-baa3-c4d5e2a977b8/storage_v2/_src_/database/postgres.edMnLQ/schema/pg_catalog.0S1ZNQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/86224bd5-15d3-4bee-baa3-c4d5e2a977b8/storage_v2/_src_/database/postgres.edMnLQ/schema/public.abK9xQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/js/src/components/BoardSetup.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/code/js/src/components/BoardSetup.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/js/src/components/Home.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/code/js/src/components/Home.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/js/src/components/Leaderboard.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/code/js/src/components/Leaderboard.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/js/src/components/Login.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/code/js/src/components/Login.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/js/src/components/Register.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/code/js/src/components/Register.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/js/src/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/code/js/src/styles.css" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$/code/jvm">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2IeXbVwW7s9BqAAGoKj6PDEt6ui" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;database.data.extractors.current.export.id&quot;: &quot;Comma-separated (CSV)_id&quot;,
+    &quot;database.data.extractors.current.id&quot;: &quot;Comma-separated (CSV)_id&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;d395af043270ee93d696bf6ce34bb26f&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\guilh\\Documents\\GitHub\\2022-daw-leic51d-g09\\code\\js\\node_modules\\typescript\\lib&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;postgresql&quot;
+    ],
+    &quot;RunConfigurationTargetLRU&quot;: [
+      &quot;8643c294-ce96-4166-8221-ede0d6b25bce&quot;,
+      &quot;c3b76303-f932-4613-a46a-962443db2dc0&quot;,
+      &quot;48745448-537a-4415-abcf-b173b4c6024f&quot;,
+      &quot;86224bd5-15d3-4bee-baa3-c4d5e2a977b8&quot;,
+      &quot;abca3428-8d3c-4d65-812b-a81658c62405&quot;
+    ]
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\ISEL\DAW\2022-daw-leic51d-g09\code\jvm\src\main\kotlin\dawleic51d09\api\models" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.BattleshipApplication (1)">
+    <configuration name="create-schema.sql" type="DatabaseScript" editBeforeRun="true" temporary="true" nameIsGenerated="true">
+      <script-file value="$PROJECT_DIR$/sql/create-schema.sql" />
+      <script-mode>FILE</script-mode>
+      <data-source id="abca3428-8d3c-4d65-812b-a81658c62405" />
+      <method v="2" />
+    </configuration>
+    <configuration name="drop-table.sql" type="DatabaseScript" editBeforeRun="true" temporary="true" nameIsGenerated="true">
+      <script-file value="$PROJECT_DIR$/sql/drop-table.sql" />
+      <script-mode>FILE</script-mode>
+      <data-source id="abca3428-8d3c-4d65-812b-a81658c62405" />
+      <method v="2" />
+    </configuration>
+    <configuration name="insert-data.sql" type="DatabaseScript" editBeforeRun="true" temporary="true" nameIsGenerated="true">
+      <script-file value="$PROJECT_DIR$/sql/insert-data.sql" />
+      <script-mode>FILE</script-mode>
+      <data-source id="2792ec2e-e116-4238-9286-a05d354ebc63" namespace="database/&quot;postgres&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="BattleshipApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="DAW-daw-leic51d-09.demo.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="dawleic51d09.BattleshipApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dawleic51d09.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BattleshipApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <option name="ACTIVE_PROFILES" />
+      <module name="demo.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="dawleic51d09.BattleshipApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dawleic51d09.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Database Script.drop-table.sql" />
+      <item itemvalue="Database Script.create-schema.sql" />
+      <item itemvalue="Database Script.insert-data.sql" />
+      <item itemvalue="Spring Boot.BattleshipApplication (1)" />
+      <item itemvalue="Spring Boot.BattleshipApplication" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.BattleshipApplication (1)" />
+        <item itemvalue="Database Script.create-schema.sql" />
+        <item itemvalue="Database Script.drop-table.sql" />
+        <item itemvalue="Spring Boot.BattleshipApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="be073b99-09da-48f4-a8a2-2129ef4b81a4" name="Changes" comment="" />
+      <created>1670543108546</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1670543108546</updated>
+      <workItem from="1670543118151" duration="96000" />
+      <workItem from="1670608663573" duration="4518000" />
+      <workItem from="1670691656134" duration="1788000" />
+      <workItem from="1670722713392" duration="2508000" />
+      <workItem from="1670769167985" duration="6575000" />
+      <workItem from="1670793678990" duration="1045000" />
+      <workItem from="1670859315258" duration="5604000" />
+      <workItem from="1670879625252" duration="1364000" />
+      <workItem from="1670941304636" duration="7938000" />
+      <workItem from="1671025663207" duration="7469000" />
+      <workItem from="1671106901565" duration="5485000" />
+      <workItem from="1671206083949" duration="12801000" />
+      <workItem from="1671291194675" duration="5750000" />
+      <workItem from="1671368693080" duration="1962000" />
+      <workItem from="1671545763537" duration="2684000" />
+      <workItem from="1671596291436" duration="658000" />
+      <workItem from="1671626032635" duration="2107000" />
+      <workItem from="1671655837533" duration="197000" />
+      <workItem from="1671678802436" duration="1234000" />
+      <workItem from="1671723313201" duration="8213000" />
+      <workItem from="1671831187197" duration="2552000" />
+      <workItem from="1671843065075" duration="595000" />
+      <workItem from="1671848540508" duration="1382000" />
+      <workItem from="1671920652800" duration="655000" />
+      <workItem from="1671988618948" duration="2368000" />
+      <workItem from="1672095863894" duration="1343000" />
+      <workItem from="1672170800049" duration="2952000" />
+      <workItem from="1672240059261" duration="8220000" />
+      <workItem from="1672320614734" duration="7116000" />
+      <workItem from="1672339222291" duration="673000" />
+      <workItem from="1672343585823" duration="595000" />
+      <workItem from="1672350826681" duration="1255000" />
+      <workItem from="1672414023419" duration="2423000" />
+      <workItem from="1672441151776" duration="1386000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/code/jvm/src/main/kotlin/dawleic51d09/api/UserController.kt</url>
+          <line>28</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/code/jvm/src/main/kotlin/dawleic51d09/api/UserController.kt</url>
+          <line>163</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

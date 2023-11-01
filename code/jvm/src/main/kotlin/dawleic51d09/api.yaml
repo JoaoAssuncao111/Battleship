@@ -1,0 +1,208 @@
+openapi: 3.0.0
+info:
+  description: Battleship API
+  version: "1.0.0"
+  title: Battleship
+
+
+paths:
+  /:
+    get:
+      operationId: getHome
+      description: goes to home
+      responses:
+        '200':
+          description: success
+  /leaderboard:
+    get:
+      operationId: getLeaderboard
+      description: returns the users with the top score
+      responses:
+        '200':
+          description: leaderboard successfully fetched
+  /users:
+    post:
+      operationId: createUser
+      description: creates a new user
+      parameters:
+        - in: query
+          name: username
+          description: Name of the user
+          required: true
+          schema:
+            type: string
+
+        - in: query
+          name: password
+          description: user password
+          required: true
+          schema:
+            type: string
+
+      responses:
+        '201':
+          description: Response body should contain added user's id
+        '409':
+          description: Response body should be an error object
+
+  /login:
+    post:
+      operationId: login
+      description: Logins in a user by returning it's token if it's found
+      responses:
+        '200':
+          description: Credentials accepted, user token recieved
+
+  /lobby:
+    put:
+      operationId: joinLobby
+      description: The user joins the waiting lobby or, if possible, starts a new game
+      parameters:
+        - name: userId
+          in: query
+          description: Id of the user to join
+          required: true
+          schema:
+            type: integer
+        - name: username
+          in: query
+          description: name of the user to join
+          required: true
+      responses:
+        '201':
+          $ref:
+
+  /users/token:
+    post:
+      operationId: token
+      description: creates a token for a user
+      parameters:
+        - name: username
+          in: query
+          description: Name of the user to create the token for
+          required: true
+          schema:
+            type: string
+
+        - name: password
+          in: query
+          description: user password
+          required: true
+          schema:
+            type: string
+
+      responses:
+        '201':
+          description: Response body should contain the specified group object from the specified user.
+        '404':
+          description: Response body should contain an error object
+
+  /games/{id}/setup:
+    put:
+      operationId: placingPhase
+      description: Allows users to define their ship layout definition
+      parameters:
+        - name: username
+          in: query
+          description: Name of the user to create the token for
+          required: true
+          schema:
+            type: string
+      responses:
+        '201':
+          description: game updated successfully
+        '400':
+          description: Bad request
+
+  /games/{id}:
+    put:
+      operationId: applyShot
+      description: Applies a user's play on a specified game
+      parameters:
+        - name: id
+          in: path
+          description: Id of the game to be updated
+      responses:
+        '201':
+          description: game updated successfully
+        '400':
+          description: Bad request
+
+
+components:
+  responses:
+    UserNotFound:
+      description: User doesn't exist
+  parameters:
+    userNameParam:
+      name: userName
+      in: path
+      required: true
+      schema:
+        type: string
+    groupIdParam:
+      name: groupId
+      in: path
+      required: true
+      schema:
+        type: string
+    gameIdParam:
+      name: gameId
+      in: query
+      required: true
+      schema:
+        type: string
+
+  schemas:
+    User:
+      type: object
+      required:
+        - id
+        - name
+        - password
+        - score
+      properties:
+        id:
+          type: integer
+        name:
+          type: string
+        password:
+          type: string
+        score:
+          type: integer
+    Game:
+      type: object
+      required:
+        - id
+        - name
+        - description
+        - url
+        - image_url
+        - mechanics
+        - categories
+      properties:
+        id:
+          type: string
+        name:
+          type: string
+        description:
+          type: string
+        url:
+          type: string
+        image_url:
+          type: string
+        mechanics:
+          type: array
+          items:
+            type: object
+            properties:
+              name:
+                type: string
+        categories:
+          type: array
+          items:
+            type: object
+            properties:
+              name:
+                type: string
+
